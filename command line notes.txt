@@ -1,0 +1,36 @@
+Command line to push code into github:
+
+//to clone app locally
+git clone (main git url)
+
+//to create new project or app in heroku
+heroku create
+
+//need to get directories for app
+npm install
+
+//to know heroku local web page
+heroku local web
+
+//to come to normal command
+ctrl+c
+
+git add .
+
+git commit -m "some commands"
+
+//push modified progam to git
+git push origin master
+
+
+//Having API key locally in heroku without mention in code
+heroku config:set API_KEY=
+
+//to save the API key locally
+heroku config:get API_KEY -s >> .env
+
+
+To create own Database : console.firebase.google.com
+
+
+
